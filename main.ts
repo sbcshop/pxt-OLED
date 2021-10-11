@@ -3,7 +3,7 @@ declare interface Math {
 }
 
 //% color=#F59E20 icon="\uf26c"
-namespace SBOLED {
+namespace SbOLED {
     let font: Buffer;
 
 
