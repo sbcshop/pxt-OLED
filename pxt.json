@@ -1,7 +1,7 @@
 {
     "name": "SB_OLED",
     "version": "2.0.20",
-    "description": "Microbit package for 0.91 Inch Ol=LED Display",
+    "description": "Microbit package for 0.91 Inch OlLED Display",
     "dependencies": {
         "core": "*"
     },
