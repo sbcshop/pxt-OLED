@@ -1,0 +1,18 @@
+{
+    "name": "SB_OLED",
+    "version": "2.0.20",
+    "description": "Microbit package for 0.91 Inch Ol=LED Display",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "main.ts",
+        "_locales/zh/SSD1306_OLED-strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "preferredEditor": "tsprj"
+}
