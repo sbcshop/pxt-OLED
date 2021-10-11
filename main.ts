@@ -2,7 +2,7 @@ declare interface Math {
     floor(x: number): number;
 }
 
-//% color=#F59E20 icon="\uf26c"
+//% color=#57A5C1 icon="\uf26c"
 namespace SbOLED {
     let font: Buffer;
 
