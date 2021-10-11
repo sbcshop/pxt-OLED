@@ -1,0 +1,23 @@
+
+SBOLED.init()
+SBOLED.writeStringNewLine("Hello World !")
+SBOLED.writeStringNewLine("HELLO World !")
+basic.pause(1000)
+SBOLED.clear()
+SBOLED.writeString("Your magic number is ")
+SBOLED.writeNum(23 * 3)
+SBOLED.writeStringNewLine("!")
+SBOLED.writeNumNewLine(1)
+basic.pause(100)
+SBOLED.writeNumNewLine(2)
+basic.pause(100)
+SBOLED.writeNumNewLine(3)
+basic.pause(1000)
+for (let i = 0; i < 100; i++) {
+    SBOLED.drawLoading(i)
+}
+basic.pause(1000)
+SBOLED.clear()
+SBOLED.drawRectangle(10, 10, 60, 60)
+SBOLED.drawLine(0, 0, 128, 64)
+SBOLED.drawLine(0, 64, 128, 0)
